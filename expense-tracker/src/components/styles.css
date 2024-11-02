@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  padding: 20px;
+}
+
+h5 {
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h4 {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.icons {
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.icons:hover {
+  background-color: #f1f1f1;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.add-expense-box {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.add-expense-box input {
+  flex: 1;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+}
+
+.add-expense-btn {
+  padding: 10px 20px;
+  background-color: #6200ea;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-expense-btn:hover {
+  background-color: #3700b3;
+}
+
+.expense-list-box {
+  width: 100%;
+  max-height: 400px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.expense-list-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+.expense-list-box::-webkit-scrollbar-track {
+  background: #333;
+  border-radius: 10px;
+}
+
+.expense-list-box::-webkit-scrollbar-thumb {
+  background-color: #6200ea;
+  border-radius: 10px;
+  border: 2px solid #333;
+}
+
+.expense-list-box::-webkit-scrollbar-thumb:hover {
+  background-color: #3700b3;
+}
+
+.expense-item {
+  background-color: #2c2c2c;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expense-details {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.expense-name {
+  margin-right: 20px;
+}
+
+.total-expenses {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  background-color: #2c2c2c;
+  padding: 15px;
+  border-radius: 5px;
+}
