@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$dp5(0x%mwnt2ghe-t_w@pa=(i8n#oni5inszjveh3q$rr_9k*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pennytrail.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
